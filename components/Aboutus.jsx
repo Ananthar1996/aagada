@@ -3,6 +3,7 @@
  * @see https://v0.dev/t/Y1FNx55627Y
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Aboutus() {
@@ -11,11 +12,11 @@ export default function Aboutus() {
       <section className="w-full py-12 bg-gray-100 dark:bg-gray-800">
         <div className="container px-4">
           <div className="flex flex-col items-center gap-6">
-            <img
+            <Image
               alt="About Us"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
               height="310"
-              src="/placeholder.svg"
+              src="/toor dal.png"
               width="550"
             />
             <div className="flex flex-col justify-center space-y-4">
