@@ -14,7 +14,7 @@ export default function Aboutus() {
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  About Our Ecommerce Store
+                  About us
                 </h1>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   We are a team of passionate ecommerce enthusiasts dedicated to
@@ -48,10 +48,10 @@ export default function Aboutus() {
                 Our Story
               </h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Our ecommerce store was founded in 2015 with the goal of making
-                online shopping more accessible and enjoyable for everyone. We
-                started with a small selection of products and have since grown
-                into a thriving business with a wide range of offerings.
+                Our store was founded in 2022 with the goal of making online
+                shopping more accessible and enjoyable for everyone. We started
+                with a small selection of products and have since grown into a
+                thriving business with a wide range of offerings.
               </p>
             </div>
             <div className="space-y-4 text-center">
@@ -65,6 +65,7 @@ export default function Aboutus() {
                 friendly solutions to our customers.
               </p>
             </div>
+            {/* TEAM
             <div className="space-y-4 text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                 Meet Our Team
@@ -146,7 +147,7 @@ export default function Aboutus() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
