@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.borderBlack {
+  @apply border border-black/10;
+}
