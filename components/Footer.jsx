@@ -20,7 +20,7 @@ export default function Footer() {
                 {" "}
                 Company details: <br />
                 AGADA FOODS PVT LTD <br />
-                NO.59, LAVANTA TOWERS, 4th MAIN ROAD,
+                NO.59, LAVANYA TOWERS, 4th MAIN ROAD,
                 <br />
                 18th CROSS, MALLESHWARAM,
                 <br />
