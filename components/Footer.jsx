@@ -16,7 +16,7 @@ export default function Footer() {
               />
             </Link>
             <div className="text-start">
-              <p className="text-white text-[0.5rem] sm:text-sm -ml-12">
+              <p className="text-white text-[0.5rem] sm:text-sm -ml-12 sm:-ml-5">
                 {" "}
                 Company details: <br />
                 AGADA FOODS PVT LTD <br />
