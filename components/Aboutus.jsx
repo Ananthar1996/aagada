@@ -1,10 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Aboutus() {
   return (
     <>
-      <section className="w-full mx-auto py-12 bg-green-700 dark:bg-gray-800 rounded-t-lg shadow-xl">
+      <section className="w-full mx-auto py-12 bg-[#DFEECB] rounded-t-lg">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className="flex flex-col items-center gap-6">
             <Image
@@ -20,7 +19,7 @@ export default function Aboutus() {
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                   About us
                 </h1>
-                <p className="text-white dark:text-gray-400 px-4 sm:px-0 sm:text-xl md:text-2xl">
+                <p className=" text-[#103535] dark:text-gray-400 px-4 sm:px-0 sm:text-xl md:text-2xl">
                   We are a team of passionate ecommerce enthusiasts dedicated to
                   providing the best shopping experience for our customers.
                 </p>
@@ -37,14 +36,14 @@ export default function Aboutus() {
           </div>
         </div>
       </section>
-      <section className="w-full py-12 bg-green-700 rounded-b-lg">
+      <section className="w-full py-12 bg-[#DFEECB] rounded-b-lg">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className="space-y-8">
             <div className="space-y-4 text-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                 Our Story
               </h2>
-              <p className="text-white dark:text-green-950-400 px-4 sm:px-0 sm:text-xl md:text-2xl">
+              <p className=" text-[#103535] dark:text-green-950-400 px-4 sm:px-0 sm:text-xl md:text-2xl">
                 Our store was founded in 2022 with the goal of making online
                 shopping more accessible and enjoyable for everyone. We started
                 with a small selection of products and have since grown into a
@@ -55,7 +54,7 @@ export default function Aboutus() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
                 Our Values
               </h2>
-              <p className="text-white dark:text-gray-400 px-4 sm:px-0 sm:text-xl md:text-2xl">
+              <p className=" text-[#103535] dark:text-gray-400 px-4 sm:px-0 sm:text-xl md:text-2xl">
                 At the heart of our business are the values of customer
                 satisfaction, quality, and sustainability. We strive to provide
                 exceptional service, high-quality products, and environmentally

@@ -8,10 +8,16 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <header className="flex items-center justify-center h-16 px-4 shrink-0 md:px-6 bg-green-700">
-      <Link className="flex items-center justify-center" href="#">
-        <Image src="/logo mark white.png" alt="logo" width={30} height={20} />
-      </Link>
+    <header className="flex items-center h-16 sm:pt-4 px-4 shrink-0 sm:px-10 bg-[#DFEECB]">
+      <div className="relative w-20 sm:w-44 md:w-60 lg:w-90">
+        <Image
+          src="/horizontal dark.png"
+          alt="logo"
+          layout="responsive"
+          width={100}
+          height={20}
+        />
+      </div>
     </header>
   );
 }
