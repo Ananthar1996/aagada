@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-white">
       <NavBar />
       <Hero />
       <Products />

@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Aboutus() {
   return (
     <>
-      <section className="w-full mx-auto py-12 bg-green-700 dark:bg-gray-800">
+      <section className="w-full mx-auto py-12 bg-green-700 dark:bg-gray-800 rounded-t-lg shadow-xl">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className="flex flex-col items-center gap-6">
             <Image
@@ -37,7 +37,7 @@ export default function Aboutus() {
           </div>
         </div>
       </section>
-      <section className="w-full py-12 bg-green-700">
+      <section className="w-full py-12 bg-green-700 rounded-b-lg">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className="space-y-8">
             <div className="space-y-4 text-center">
