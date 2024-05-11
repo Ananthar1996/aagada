@@ -1,6 +1,6 @@
 "use client";
 
-import { sendEmail } from "@/actions/sendEmail";
+// import { sendEmail } from "@/actions/sendEmail";
 
 const Contact = () => {
   const handleSubmit = async (event) => {
@@ -18,14 +18,14 @@ const Contact = () => {
       <p className="text-gray-700 text-sm sm:text-xl">
         If you have any queries regaring our proudcts or want to place bulk
         orders contact us at {"  "}
-        <a href="mailto:example@gmail.com" className="underline">
-          example@gmail.com
+        <a href="mailto:sales@agadafoods.com" className="underline">
+          sales@agadafoods.com
         </a>{" "}
         {"  "}
-        or through this form
+        {/* or through this form */}
       </p>
 
-      <form className="mt-5 flex flex-col" onSubmit={handleSubmit}>
+      {/* <form className="mt-5 flex flex-col" onSubmit={handleSubmit}>
         <input
           className="h-14 rounded-lg border border-black/10 p-4"
           name="email"
@@ -47,7 +47,7 @@ const Contact = () => {
         >
           Submit
         </button>
-      </form>
+      </form> */}
     </section>
   );
 };
