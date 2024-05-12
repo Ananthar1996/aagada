@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="flex flex-col items-center gap-2">
             <Link className="flex items-center sm:items-start" href="#">
               <Image
-                src="/horizontal.png"
+                src="/horizontalnegative.png"
                 alt="logo"
                 width={100}
                 height={500}
