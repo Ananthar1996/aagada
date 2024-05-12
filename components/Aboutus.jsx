@@ -16,7 +16,7 @@ export default function Aboutus() {
             />
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2 text-center">
-                <h1 className="font-syne text-3xl font-bold tracking-tighter sm:text-4xl">
+                <h1 className="font-syne text-3xl font-bold tracking-tighter sm:text-4xl text-[#103535]">
                   About us
                 </h1>
                 <p className="font-montserrat text-[#103535] dark:text-gray-400 px-4 sm:px-0 sm:text-xl md:text-2xl">
@@ -40,7 +40,7 @@ export default function Aboutus() {
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className="space-y-8">
             <div className="space-y-4 text-center">
-              <h2 className="font-syne text-3xl font-bold tracking-tighter sm:text-4xl">
+              <h2 className="font-syne text-3xl font-bold tracking-tighter sm:text-4xl text-[#103535]">
                 Our Story
               </h2>
               <p className="font-montserrat text-[#103535] dark:text-green-950-400 px-4 sm:px-0 sm:text-xl md:text-2xl">
@@ -51,7 +51,7 @@ export default function Aboutus() {
               </p>
             </div>
             <div className="space-y-4 text-center">
-              <h2 className="font-syne text-3xl font-bold tracking-tighter sm:text-4xl">
+              <h2 className="font-syne text-3xl font-bold tracking-tighter text-[#103535] sm:text-4xl">
                 Our Values
               </h2>
               <p className="font-montserrat text-[#103535] dark:text-gray-400 px-4 sm:px-0 sm:text-xl md:text-2xl">
