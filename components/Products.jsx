@@ -19,7 +19,7 @@ const products = [
     id: 1,
     name: "URAD GOLA",
     href: "#",
-    imageSrc: "/urad gola.png",
+    imageSrc: "/uradgola.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
     price: "MRP: 220",
     color: "Black",
@@ -29,7 +29,7 @@ const products = [
     id: 2,
     name: "URAD DAL",
     href: "#",
-    imageSrc: "/urad gola.png",
+    imageSrc: "/uragdal.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
     price: "MRP: 225",
     color: "Black",
@@ -39,7 +39,7 @@ const products = [
     id: 3,
     name: "TOOR DAL",
     href: "#",
-    imageSrc: "/toor dal.png",
+    imageSrc: "/toordal.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
     price: "MRP: 279",
     color: "Black",
@@ -49,7 +49,7 @@ const products = [
     id: 4,
     name: "BACK EYED BEANS",
     href: "#",
-    imageSrc: "/black eyed beans-2.png",
+    imageSrc: "/black.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
     price: "MRP: 160",
     color: "Black",
@@ -59,7 +59,7 @@ const products = [
     id: 5,
     name: "GREEN MOONG",
     href: "#",
-    imageSrc: "/moong dal.png",
+    imageSrc: "/greenmoong.jpg",
     imageAlt: "Front of men's Basic Tee in black.",
     price: "MRP: 210",
     color: "Black",
@@ -73,16 +73,16 @@ const products = [
     imageAlt: "Front of men's Basic Tee in black.",
     price: "MRP: 75",
     color: "Black",
-    size: "1KG",
+    size: "250 grms",
   },
   // More products...
 ];
 
 export default function Products() {
   return (
-    <div className="bg-[#DFEECB]">
+    <div className="bg-[#DFEECB] rounded-lg">
       <div className="mx-auto max-w-2xl px-4 py-5 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
-        <h2 className="text-2xl font-bold tracking-tight  text-[#103535]">
+        <h2 className="font-syne text-2xl font-bold tracking-tight  text-[#103535]">
           Our Products
         </h2>
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
@@ -103,15 +103,18 @@ export default function Products() {
                 <div>
                   <h3 className="text-sm  text-[#103535]">
                     <a href={product.href}>
-                      <span aria-hidden="true" className="absolute inset-0" />
+                      <span
+                        aria-hidden="true"
+                        className="font-montserrat absolute inset-0"
+                      />
                       <strong>{product.name}</strong>
                     </a>
                   </h3>
                 </div>
-                <p className="text-sm font-medium text-gray-900">
+                <p className="font-montserrat text-sm font-medium text-gray-900">
                   {product.price}
                 </p>
-                <p className="text-sm font-medium text-gray-900">
+                <p className="font-montserrat text-sm font-medium text-gray-900">
                   {product.size}
                 </p>
               </div>
