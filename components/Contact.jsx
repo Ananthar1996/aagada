@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className=" p-5 min-w-full bg-[#DFEECB] flex flex-col justify-center items-center px-10 sm:w-[85vh] rounded-lg"
+      className=" p-5 min-w-full bg-[#F2F8EA] flex flex-col justify-center items-center px-10 sm:w-[85vh] rounded-lg"
     >
       <div className="container mx-auto">
         <div className="text-center">

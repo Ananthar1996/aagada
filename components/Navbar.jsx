@@ -8,9 +8,9 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <header className="flex mt-4 sm:pt-4 px-4 sm:px-10 bg-[#F2F8EA]">
-      <div className="mr-auto">
-        <div className="w-20 sm:w-44 md:w-60 lg:w-90">
+    <header className="bg-[#F2F8EA] flex">
+      <div className="flex-none">
+        <div className="w-[7rem] sm:w-[20rem] md:w-48 lg:w-60">
           <Image
             src="/horizontal.png"
             alt="logo"

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Aboutus() {
   return (
     <>
-      <section className="w-full mx-auto py-12 bg-[#DFEECB] rounded-lg">
+      <section className="w-full mx-auto py-12 bg-[#F2F8EA] rounded-lg">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className="flex flex-col items-center gap-6">
             <Image
@@ -36,7 +36,7 @@ export default function Aboutus() {
           </div>
         </div>
       </section>
-      <section className="w-full py-12 bg-[#DFEECB] rounded-b-lg">
+      <section className="w-full py-12 bg-[#F2F8EA] rounded-b-lg">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className="space-y-8">
             <div className="space-y-4 text-center">
