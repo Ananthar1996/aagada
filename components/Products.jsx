@@ -60,16 +60,16 @@ const products = [
 export default function Products() {
   return (
     <section className="bg-[#F2F8EA] flex flex-col items-center justify-center p-4 sm:p-8 md:p-10">
-      <h1 className="text-[#103535] text-xl sm:text-4xl lg:text-6xl pb-2">
+      <h1 className="text-[#103535] text-xl sm:text-4xl lg:text-6xl pb-4 sm:pb-8">
         Our Products
       </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 pb-2 sm:pb-4">
         {/* row 1 */}
         {/* product 1 */}
         <div className="flex flex-row mb-4 gap-2 sm:gap-4">
           <Image
-            src="/uradgola.jpg"
+            src="/urad gola .png"
             alt="products"
             width={150}
             height={100}
@@ -91,7 +91,7 @@ export default function Products() {
         {/* Product 2 */}
         <div className="flex flex-row-reverse sm:flex-row-reverse mb-4 ">
           <Image
-            src="/uragdal.jpg"
+            src="/urag dal.png"
             alt="products"
             width={150}
             height={100}
@@ -115,7 +115,7 @@ export default function Products() {
         {/* product 3 */}
         <div className="flex flex-row mb-4 gap-2 sm:gap-4">
           <Image
-            src="/toordal.jpg"
+            src="/toor dal.png"
             alt="products"
             width={150}
             height={100}
@@ -137,7 +137,7 @@ export default function Products() {
         {/* Product 4 */}
         <div className="flex flex-row-reverse sm:flex-row-reverse mb-4 ">
           <Image
-            src="/black.jpg"
+            src="/black.png"
             alt="products"
             width={150}
             height={100}
@@ -161,7 +161,7 @@ export default function Products() {
         {/* product 5 */}
         <div className="flex flex-row mb-4 gap-2 sm:gap-4">
           <Image
-            src="/greenmoong.jpg"
+            src="/383 copy.png"
             alt="products"
             width={150}
             height={100}
